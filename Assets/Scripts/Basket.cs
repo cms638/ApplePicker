@@ -9,7 +9,7 @@ public class Basket : MonoBehaviour {
 
     void Start()
     {
-         GameObject scoreGO = GameObject.Find("ScoreCounter");
+        GameObject scoreGO = GameObject.Find("ScoreCounter");
         scoreGT = scoreGO.GetComponent<Text>();
         scoreGT.text = "0";
     }

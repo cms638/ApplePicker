@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AppleTree : MonoBehaviour {
-
+    [Header("Set in Inspector")]
     public GameObject applePrefab;
 
     //speed in which tree moves
